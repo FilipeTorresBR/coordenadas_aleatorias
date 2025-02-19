@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: calc(100vh - 3.5rem);
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+}
+.input-file_container{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+.output{
+    font-size: 12px;
+}
