@@ -5,5 +5,5 @@ function gerarCoordenadasAleatorias() {
     document.getElementById('latitude').value = latitude
     document.getElementById('longitude').value = longitude
     document.getElementById('map_link').href = url
-    document.getElementById('map_link').text = `https://www.google.com/maps?q=${latitude},${longitude}`
+    document.getElementById('map_link').text = `https://www.google.com/maps?q=${latitude},${longitude}&t=k`
 }
